@@ -28,4 +28,7 @@ build {
   sources = [
     "source.amazon-ebs.amazon-linux"
   ]
+  provisioner "ansible" {
+    playbook_file = "provisioners/main.yml"
+  }
 }
