@@ -20,7 +20,7 @@ source "amazon-ebs" "amazon-linux" {
     most_recent = true
     owners      = ["amazon"]
   }
-  ssh_username = "root"
+  ssh_username = "ec2-user"
 }
 
 build {
